@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.country-content {
+    background-color: #d9d9d9;
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-position: center;    
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.country-content h1 {
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.country-content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.country-content p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    height: 100%;
+}
+
+#france {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    height: 100%;
+}
+
+.button {
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: #5f6f84;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover {
+    background-color: #0057b8;
+}
+
+
+
+footer {
+    background-color: #5f6f84;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+footer a:hover {
+    color: #dbe0e3;
+}
+
+@media (max-width: 1280px){
+    
+    .country-content{
+        text-align: justify;
+        padding: 30px;
+    }
+
+    #content{
+        height: 100%;
+    }
+
+    .country-content h1 {
+        text-align: center;
+        font-size: 50px;
+    }
+    .country-content p {
+        margin-bottom: 10px;
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+    
+}

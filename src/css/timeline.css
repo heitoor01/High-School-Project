@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+body {
+    height: 88.6vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend', sans-serif;
+}
+
+.container {
+    background-color: #f0f0f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.containernd {
+    background-color: #e8dfcc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.button {
+    background-color: #f0f0f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonnd {
+    background-color: #e8dfcc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: #5f6f84;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover {
+    background-color: #0057b8;
+}
+
+footer {
+    background-color: #5f6f84;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+footer a:hover {
+    color: #dbe0e3;
+}
